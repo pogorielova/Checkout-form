@@ -1,0 +1,16 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss:compile": "node-sass scss/base.scss css/index.css",
+    "css:watch": "npm run scss:compile && npm run scss:compile -- -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
